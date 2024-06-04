@@ -19,7 +19,7 @@ viewAllProducts.addEventListener("click", function () {
 });
 
 const images = [
-  "https://img.freepik.com/fotos-gratis/pessoa-perto-de-usina-de-energia-alternativa_23-2149192730.jpg?t=st=1717454526~exp=1717458126~hmac=1686c0c59282a705bbcb9c58ca50348d8de655dc5341dbe90c7bbeb0c1868ad6&w=2000",
+  "https://www.apple.com/newsroom/images/2023/10/apple-unveils-new-macbook-pro-featuring-m3-chips/article/Apple-MacBook-Pro-2up-231030_Full-Bleed-Image.jpg.large.jpg",
   "https://c.animaapp.com/SiCCbQBA/img/hero-endframe--cvklg0xk3w6e-large-2@2x.png",
 ];
 

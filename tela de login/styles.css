@@ -161,6 +161,13 @@
     white-space: nowrap;
     font-style: var(--title-16px-regular-font-style);
   }
+
+  .log-in .home:hover{
+    background-color: #ffffff;
+  transform: scale(1.20);
+  cursor: pointer;
+  transition: transform 0.2s
+  }
   
   .log-in .contact-wrapper {
     position: relative;
@@ -217,6 +224,13 @@
     line-height: var(--title-16px-regular-line-height);
     white-space: nowrap;
     font-style: var(--title-16px-regular-font-style);
+  }
+
+  .log-in .sign-up:hover{
+    background-color: #ffffff;
+    transform: scale(1.20);
+    cursor: pointer;
+    transition: transform 0.2s
   }
   
   .log-in .frame-6 {

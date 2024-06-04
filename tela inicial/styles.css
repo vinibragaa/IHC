@@ -2209,6 +2209,19 @@
   flex: 0 0 auto;
 }
 
+.drop-shipping-e .header-2:hover {
+  padding: 1px;
+    margin: 2px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    background-color: #ffffff;
+    transform: scale(1.2);
+}
+
 .drop-shipping-e .under-line-2 {
   position: relative;
   width: 48px;
@@ -2278,6 +2291,14 @@
   line-height: var(--title-16px-regular-line-height);
   white-space: nowrap;
   font-style: var(--title-16px-regular-font-style);
+  
+}
+
+.drop-shipping-e .sign-up:hover {
+  background-color: #ffffff;
+  transform: scale(1.20);
+  cursor: pointer;
+  transition: transform 0.2s
 }
 
 .drop-shipping-e .frame-65 {

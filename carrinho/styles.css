@@ -670,6 +670,12 @@
     white-space: nowrap;
     font-style: var(--title-16px-medium-font-style);
   }
+  .view-all-products-2:hover {
+    background-color: var(--button-2);
+    transform: scale(1.10);
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
   
   .carrinho .frame-17 {
     display: inline-flex;
@@ -890,3 +896,9 @@
     font-style: var(--title-14px-regular-font-style);
   }
   
+.frame-16 #home2:hover {
+  background-color: #ffffff;
+  transform: scale(1.20);
+  cursor: pointer;
+  transition: transform 0.2s;
+}

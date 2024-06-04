@@ -376,6 +376,36 @@
     flex: 0 0 auto;
   }
   
+  .frame-12 >input {
+    position: relative;
+    width: 250px;
+    margin-top: -1px;
+    opacity: 0.4;
+    font-family: var(--title-16px-regular-font-family);
+    font-weight: var(--title-16px-regular-font-weight);
+    color: var(--text-2);
+    font-size: var(--title-16px-regular-font-size);
+    letter-spacing: var(--title-16px-regular-letter-spacing);
+    line-height: var(--title-16px-regular-line-height);
+    white-space: nowrap;
+    font-style: var(--title-16px-regular-font-style);
+  }
+
+  .frame-9 >input {
+    position: relative;
+    width: 250px;
+    margin-top: -1px;
+    opacity: 0.4;
+    font-family: var(--title-16px-regular-font-family);
+    font-weight: var(--title-16px-regular-font-weight);
+    color: var(--text-2);
+    font-size: var(--title-16px-regular-font-size);
+    letter-spacing: var(--title-16px-regular-letter-spacing);
+    line-height: var(--title-16px-regular-line-height);
+    white-space: nowrap;
+    font-style: var(--title-16px-regular-font-style);
+  }
+
   .log-in .text-wrapper-4 {
     position: relative;
     width: fit-content;
@@ -661,3 +691,9 @@
     flex: 0 0 auto;
   }
   
+  .button:hover {
+    background-color: var(--button-2);
+    transform: scale(1.20);
+    cursor: pointer;
+    transition: transform 0.2s;
+  }

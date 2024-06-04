@@ -53,3 +53,8 @@ setInterval(() => {
   }
   updateImage();
 }, 3000);
+
+const carrinho = document.getElementById("carrinho");
+carrinho.addEventListener("click", function () {
+  window.location.href = "/carrinho/index.html";
+});

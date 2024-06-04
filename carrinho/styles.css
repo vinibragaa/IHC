@@ -161,6 +161,12 @@
     white-space: nowrap;
     font-style: var(--title-16px-regular-font-style);
   }
+  .home:hover {
+    background-color: #ffffff;
+  transform: scale(1.20);
+  cursor: pointer;
+  transition: transform 0.2s;
+  }
   
   .carrinho .contact-wrapper {
     position: relative;
@@ -218,7 +224,12 @@
     white-space: nowrap;
     font-style: var(--title-16px-regular-font-style);
   }
-  
+  .sign-up:hover { 
+    background-color: #ffffff;
+    transform: scale(1.20);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
   .carrinho .frame-6 {
     display: inline-flex;
     align-items: center;
@@ -334,7 +345,7 @@
     font-style: var(--title-12px-regular-font-style);
   }
   
-  .carrinho .with-buy {
+  .with-buy {
     position: relative;
     width: 32px;
     height: 32px;

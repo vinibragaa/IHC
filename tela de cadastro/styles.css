@@ -441,6 +441,14 @@
     flex: 0 0 auto;
   }
   
+  .frame-15:hover {
+  background-color: #ffffff;
+  transform: scale(1.20);
+  cursor: pointer;
+  transition: transform 0.2s
+  }
+  
+  
   .crie-sua-conta .text-wrapper-6 {
     position: relative;
     width: fit-content;
@@ -696,3 +704,9 @@
     font-style: var(--title-14px-regular-font-style);
   }
   
+  .button:hover {
+    background-color: var(--button-2);
+    transform: scale(1.10);
+    cursor: pointer;
+    transition: transform 0.2s;
+  }

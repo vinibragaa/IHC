@@ -90,3 +90,8 @@ document.addEventListener("DOMContentLoaded", function () {
     window.location.href = "/tela de login/index.html";
   });
 });
+
+const pagamento = document.getElementById("pagamento");
+pagamento.addEventListener("click", function () {
+  window.alert("Pagamento realizado!")
+});

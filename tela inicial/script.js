@@ -58,3 +58,13 @@ const carrinho = document.getElementById("carrinho");
 carrinho.addEventListener("click", function () {
   window.location.href = "/carrinho/index.html";
 });
+
+const loginmapa = document.getElementById("login-mapa");
+loginmapa.addEventListener("click", function () {
+  window.location.href = "/tela de login/index.html";
+});
+
+const carrinhomapa = document.getElementById("carrinho-mapa");
+carrinhomapa.addEventListener("click", function () {
+  window.location.href = "/carrinho/index.html";
+});

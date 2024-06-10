@@ -2399,3 +2399,10 @@
   left: 11px;
   transform: rotate(90deg);
 }
+
+.text-wrapper-29:hover {
+  background-color: #000000;
+  transform: scale(1.20);
+  cursor: pointer;
+  transition: transform 0.2s;
+}

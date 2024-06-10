@@ -99,9 +99,17 @@
                   <div class="text-wrapper-4">Total</div>
                 </div>
               </div>
-              <div class="cart-section">
+              <div class="cart-section" id="monitor-section">
+                <input
+                  type="checkbox"
+                  checked
+                  id="selectMonitor"
+                  class="select-item"
+                />
                 <div class="element" id="monitorPrice">R$650,00</div>
-                <div class="element-2" id="individualMonitorPrice">&nbsp;&nbsp;&nbsp;&nbsp;R$650,00</div>
+                <div class="element-2" id="individualMonitorPrice">
+                  R$650,00
+                </div>
                 <div class="quantity">
                   <div class="frame-13">
                     <div class="text-wrapper-5" id="quantity">01</div>
@@ -119,6 +127,7 @@
                     </div>
                   </div>
                 </div>
+                <!-- <button class="remove-item" id="removeMonitor">Remover</button> -->
                 <div class="overlap-group-2">
                   <div class="monitor-cart-small">
                     <img
@@ -127,15 +136,24 @@
                     />
                   </div>
                   <img
-                    class="icon-cancel"
+                    id="removeMonitor"
+                    class="remove-item"
                     src="https://c.animaapp.com/frS4regh/img/icon-cancel-2.svg"
                   />
                 </div>
                 <div class="LCD-monitor">Monitor Gamer IPS FHD</div>
               </div>
-              <div class="cart-section">
+              <div class="cart-section" id="controller-section">
+                <input
+                  type="checkbox"
+                  id="selectController"
+                  class="select-item"
+                  checked
+                />
                 <div class="element">R$550,00</div>
-                <div class="element-2" id="individualControllerPrice">&nbsp;&nbsp;&nbsp;&nbsp;R$1100,00</div>
+                <div class="element-2" id="individualControllerPrice">
+                  R$1100,00
+                </div>
                 <div class="quantity">
                   <div class="frame-15">
                     <div class="text-wrapper-5" id="quantity2">02</div>
@@ -153,20 +171,28 @@
                     </div>
                   </div>
                 </div>
+                <!-- <button class="remove-item" id="removeController">
+                  Remover
+                </button> -->
                 <div class="gamepad-cart-small">
                   <img
                     class="g-x"
                     src="https://c.animaapp.com/frS4regh/img/g92-2-500x500-1-1@2x.png"
+                  />
+                  <img
+                    id="removeController"
+                    class="remove-item"
+                    src="https://c.animaapp.com/frS4regh/img/icon-cancel-2.svg"
                   />
                 </div>
                 <div class="LCD-monitor-2">H1 Controle Gamer</div>
               </div>
             </div>
             <div class="frame-16">
-              <button class="button">
-                <div id="home2" class="view-all-products">Volte ao início</div>
+              <button class="button" id="home2">
+                <div class="view-all-products">Volte ao início</div>
               </button>
-              <button class="button">
+              <button class="button" id="updateCart">
                 <div class="view-all-products">Atualizar Carrinho</div>
               </button>
             </div>
@@ -174,9 +200,9 @@
           <div class="frame-17">
             <div class="frame-18">
               <div class="coupon-code-wrapper">
-                <div class="coupon-code">Cupom</div>
+                <input class="coupon-code" type="text" placeholder="Cupom" />
               </div>
-              <button class="view-all-products-wrapper">
+              <button class="view-all-products-wrapper" id="applyCoupon">
                 <div class="view-all-products-2">Aplicar Cupom</div>
               </button>
             </div>
@@ -184,7 +210,7 @@
               <div class="cart-total">Total</div>
               <div class="frame-20">
                 <div class="text-wrapper-4">Subtotal:</div>
-                <div class="element-3" id="finalPrice">R$1750,00</div>
+                <div class="element-3" id="finalPrice">R$00,00</div>
               </div>
               <div class="frame-21">
                 <div class="text-wrapper-4">Frete:</div>
@@ -192,7 +218,7 @@
               </div>
               <div class="frame-22">
                 <div class="text-wrapper-4">Total:</div>
-                <div class="text-wrapper-4" id="finalPrice2">R$1750,00</div>
+                <div class="text-wrapper-4" id="finalPrice2">R$00,00</div>
               </div>
               <button class="button-2" id="pagamento">
                 <div class="view-all-products-2">Realizar Pagamento</div>

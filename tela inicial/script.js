@@ -68,3 +68,8 @@ const carrinhomapa = document.getElementById("carrinho-mapa");
 carrinhomapa.addEventListener("click", function () {
   window.location.href = "/carrinho/index.html";
 });
+
+const btnprodutos = document.getElementById("imagens");
+btnprodutos.addEventListener("click", function () {
+  window.location.href = "/produto/index.html";
+});

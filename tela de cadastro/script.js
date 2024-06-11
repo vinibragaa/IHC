@@ -36,3 +36,8 @@ const signUp = document.getElementById("sign-up");
 signUp.addEventListener("click", function () {
   window.location.href = "/tela de login/index.html";
 });
+
+const btncadastro = document.getElementById("submit");
+btncadastro.addEventListener("click", function () {
+  window.location.href = "/tela de login/index.html";
+});

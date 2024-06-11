@@ -31,3 +31,8 @@ document.addEventListener("DOMContentLoaded", function () {
     window.location.href = "/tela de login/index.html";
   });
 });
+
+const btncarrinho = document.getElementById("carrin");
+btncarrin.addEventListener("click", function () {
+  window.location.href = "/carrinho/index.html";
+});

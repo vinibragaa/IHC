@@ -146,3 +146,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   atualizarPrecoFinal();
 });
+
+const voltarinicio = document.getElementById("voltar-inicio");
+voltarinicio.addEventListener("click", function () {
+  window.location.href = "/tela inicial/index.html";
+});

@@ -1159,4 +1159,50 @@
     width: 14.5px;
     height: 14.3px;
   }
+
+  .frame-25:hover {
+    transition: transform 0.2s;
+    transform: scale(1.13);
+    cursor: pointer;
+  
+  }
+  
+  .ak-wrapper:hover {
+    transition: transform 0.2s;
+    transform: scale(1.13);
+    cursor: pointer;
+  
+  }
+
+  .gammaxx-argb-wrapper:hover {
+    transition: transform 0.2s;
+    transform: scale(1.13);
+    cursor: pointer;
+  
+  }
+
+  .add-to-cart:hover {
+    transition: transform 0.2s;
+    transform: scale(1.13);
+    cursor: pointer;
+  
+  }
+
+  .home:hover { 
+    transition: transform 0.2s;
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+
+  .sign-up-wrapper:hover { 
+    transition: transform 0.2s;
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+
+  .with-buy:hover {
+    transition: transform 0.2s;
+    transform: scale(1.2);
+    cursor: pointer;
+  }
   
